@@ -3,7 +3,7 @@
 [cite_start]This project implements a **Few-Shot Generative Adversarial Network (GAN)** framework specifically designed for high-resolution PCB X-ray image reconstruction[cite: 5]. [cite_start]It addresses critical challenges in industrial imaging, such as limited training data and artifacts like "missing cone" streaking[cite: 4, 5].
 
 # Dataset Name
-PCB X-ray Laminography Dataset.Source: Zenodo (Records 17084482).Total Images in Source: 759 images in TIF format.Few-Shot Configuration: Out of the total 759 images, only 50 images were utilized for this research to simulate a few-shot learning scenario.Data Split: 40 images for training and 10 images for testing/evaluation
+PCB X-ray Laminography Dataset.Source: Zenodo (Records 17084482)(https://zenodo.org/records/17084482).Total Images in Source: 759 images in TIF format.Few-Shot Configuration: Out of the total 759 images, only 50 images were utilized for this research to simulate a few-shot learning scenario.Data Split: 40 images for training and 10 images for testing/evaluation
 
 ## 🌟 Key Innovations
 * [cite_start]**Few-Shot Strategy:** Efficiently trained on only **40 images** while maintaining high reconstruction quality[cite: 5, 27, 105].
