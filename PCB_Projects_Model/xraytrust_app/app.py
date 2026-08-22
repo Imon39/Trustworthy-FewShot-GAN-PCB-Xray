@@ -33,7 +33,9 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Shot options — must match the folder names you saved
 SHOT_OPTIONS = [5, 10, 20, 40, 100, 200]
-MODEL_DIR = "models"
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, "models")
 
 
 # ============================================================
