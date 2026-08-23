@@ -268,7 +268,7 @@ st.sidebar.caption(
 # ============================================================
 # 6. MAIN PAGE
 # ============================================================
-st.title("🔬 XrayTrust — PCB X-ray Reconstruction")
+st.title("🔬 XrayTrust — PCB X-ray Image Reconstruction")
 st.caption(
     "Data-efficient, physics-inspired GAN framework for PCB X-ray image "
     "reconstruction — with a ground-truth-independent trust/quality signal."
